@@ -1,0 +1,157 @@
+/* F8994A orange
+E5F1F1 light gray blue
+A8D9D8 darker blue gray
+F7DCE4 light pink
+FBD697 lightyellow ish? */
+
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;  
+}
+.clear{
+    clear: both;
+}
+.silly {
+    text-align: center;
+}
+body{
+    font-family: Arial, sans-serif;
+    max-width: 1300px;
+    min-width: 200px; 
+    
+    margin: auto; 
+   margin-top:10px ;
+    background-color: #f5c6e9; 
+}
+
+.title{
+    font-family: Swanley, Arial, sans-serif;
+    font-size: 50px;
+}
+nav{
+    position: sticky;
+    top: 0;
+   
+    color:#ffffff; 
+    z-index: 1000;
+    text-align: center;
+    flex-direction: row; 
+    align-items: center;
+    
+    
+}
+footer {
+    text-align:center; 
+}
+nav a{
+   
+    
+    display: inline-block;
+    & hr{
+        border-color: #3b6b27;
+    }
+     
+}
+a {
+    text-decoration: none;
+    color: #009682; 
+}
+.logo{
+    height: 200px;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #000000;
+    opacity: 50%; 
+    background-color:rgb(0, 0, 0); 
+    color:white; 
+    margin: 10px;
+
+}
+p{
+    line-height: 1.5;
+    font-size: 20px;
+}
+h2{
+    font-size: 30px;
+    margin: 15px 0px;
+}
+main{
+    padding: 0 20px 20px 20px;
+}
+video{
+    border: #3b6b27 3px solid;
+}
+.showcase{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 6px;
+}
+h3{
+    font-size: 30px;
+    padding: 10px 0;
+}
+h4{
+    font-size: 24px;
+    padding: 8px 0;
+}
+.image{
+    height: 400px;
+    border: #3b6b27 3px solid;
+}
+summary{
+    font-weight: bold;
+    font-size: 22px;
+    margin: 10px 0;
+}
+details p{
+    font-size: 18px;
+}
+.table {
+    border-collapse:collapse;  
+    
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.button {
+    background-color:rgb(255, 140, 213);
+    border-radius:10px;
+    height:30px;
+    width:95px;
+    border:none;  
+    color:rgb(219, 17, 216); 
+}
+button:focus {
+    color:rgb(219, 17, 216); 
+}
+button:hover {
+    background-color:#a0fcd9; 
+    height:35px;
+    width:105px;
+    font-size:15px;
+}
+
+
+
+@font-face {
+    font-family: Melt-Swashes ;
+    src: url('fonts/Melt-Swashes.otf');
+}
